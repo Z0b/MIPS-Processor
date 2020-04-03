@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\Users\patel\Desktop\CLG\Sem - 3\CO\LAB\MIPS_2\MIPS_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS_TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 22.  For instance uut/i1/, width 6 of formal port op_dec is not equal to width 16 of actual signal data_in.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 44.  For instance uut/i1/, width 16 of formal port data_in is not equal to width 6 of actual signal op_dec.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 23.  For instance uut/i1/, width 16 of formal port ans_ex is not equal to width 1 of actual signal clk.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 25.  For instance uut/i1/, width 16 of formal port data_out is not equal to width 1 of actual signal reset.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 42.  For instance uut/i1/, width 1 of formal port clk is not equal to width 16 of actual signal DM_data.
+WARNING: File "C:/Users/patel/Desktop/CLG/Sem - 3/CO/LAB/MIPS_2/MIPS.v" Line 26.  For instance uut/i1/, width 1 of formal port reset is not equal to width 16 of actual signal data_out.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module MIPS_TB.uut.i8.Prog_Mem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module MIPS_TB.uut.i6.Data_Mem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

@@ -1,0 +1,4 @@
+verilog isim_temp "d_flipflop.v"
+verilog isim_temp "JC_Block.v"
+verilog isim_temp "JC_Block_TB.v"
+verilog isim_temp "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,3 @@
+verilog work "DC_Block.v"
+verilog work "DC_Block_TB.v"
+verilog work "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

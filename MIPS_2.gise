@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MIPS_2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DC_Block_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DC_Block_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="DC_Block_TB_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DM_Block_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DM_Block_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DM_Block_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DM_Block_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="JC_Block_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="JC_Block_TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MIPS_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MIPS_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MIPS_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MIPS_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MIPS_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MIPS_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PM_Block_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PM_Block_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RB_Block_TB_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Stall_Block_TB_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Write_Block_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1574157940" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1574157940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576184008" xil_pn:in_ck="-7318040340933778551" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1576184008">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALU_TB.v"/>
+      <outfile xil_pn:name="DC_Block.v"/>
+      <outfile xil_pn:name="DC_Block_TB.v"/>
+      <outfile xil_pn:name="DM_Block.v"/>
+      <outfile xil_pn:name="DM_Block_tb.v"/>
+      <outfile xil_pn:name="JC_Block.v"/>
+      <outfile xil_pn:name="JC_Block_TB.v"/>
+      <outfile xil_pn:name="MIPS.v"/>
+      <outfile xil_pn:name="MIPS_TB.v"/>
+      <outfile xil_pn:name="PM_Block.v"/>
+      <outfile xil_pn:name="PM_Block_tb.v"/>
+      <outfile xil_pn:name="RB_Block.v"/>
+      <outfile xil_pn:name="RB_Block_TB.v"/>
+      <outfile xil_pn:name="Stall_Block.v"/>
+      <outfile xil_pn:name="Stall_Block_TB.v"/>
+      <outfile xil_pn:name="Write_Block.v"/>
+      <outfile xil_pn:name="Write_Block_TB.v"/>
+      <outfile xil_pn:name="d_flipflop.v"/>
+      <outfile xil_pn:name="reg_bank.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1574198996" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2952785322584485627" xil_pn:start_ts="1574198996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574198996" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3081298097476105565" xil_pn:start_ts="1574198996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574157940" xil_pn:in_ck="-8905737398776037254" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4387851218372261260" xil_pn:start_ts="1574157940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/D_M.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/D_M.v"/>
+      <outfile xil_pn:name="ipcore_dir/P_M.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/P_M.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1576184011" xil_pn:in_ck="-7318040340933778551" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1576184011">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALU_TB.v"/>
+      <outfile xil_pn:name="DC_Block.v"/>
+      <outfile xil_pn:name="DC_Block_TB.v"/>
+      <outfile xil_pn:name="DM_Block.v"/>
+      <outfile xil_pn:name="DM_Block_tb.v"/>
+      <outfile xil_pn:name="JC_Block.v"/>
+      <outfile xil_pn:name="JC_Block_TB.v"/>
+      <outfile xil_pn:name="MIPS.v"/>
+      <outfile xil_pn:name="MIPS_TB.v"/>
+      <outfile xil_pn:name="PM_Block.v"/>
+      <outfile xil_pn:name="PM_Block_tb.v"/>
+      <outfile xil_pn:name="RB_Block.v"/>
+      <outfile xil_pn:name="RB_Block_TB.v"/>
+      <outfile xil_pn:name="Stall_Block.v"/>
+      <outfile xil_pn:name="Stall_Block_TB.v"/>
+      <outfile xil_pn:name="Write_Block.v"/>
+      <outfile xil_pn:name="Write_Block_TB.v"/>
+      <outfile xil_pn:name="d_flipflop.v"/>
+      <outfile xil_pn:name="reg_bank.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1576184014" xil_pn:in_ck="-5727731340864495397" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4541597923282615975" xil_pn:start_ts="1576184011">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MIPS_TB_beh.prj"/>
+      <outfile xil_pn:name="MIPS_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1576184014" xil_pn:in_ck="347453569067724175" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-830616102324412868" xil_pn:start_ts="1576184014">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MIPS_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>
